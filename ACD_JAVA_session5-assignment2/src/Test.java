@@ -8,12 +8,12 @@
  
  	public static void main(String[] args) {
  
- 		flat flt1 =new flat("Towers Flat ", "White", "23.259933,77.412615", true, 15, "Semi Furnished", 10000, 5000);
+ 		flat flt1 =new flat("Towers Flat ", "White", "23,77", true, 15, "Semi Fur", 1000, 500);
  		flt1.Display();
  		
- 		flat flt2 =new flat("Builer Flat ", "Silver", "23.259933,77.412615", true, 7, "Furnished", 5000, 2500);
+ 		flat flt2 =new flat("Builer Flat ", "Silver", "23,77", true, 7, "Fur", 500, 250);
  		flt2.Display();
- 		flat flt3 =new flat("Builer Flat ", "Silver", "23.259933,77.412615", true, 7, "Furnished", 5000, 2500);
+ 		flat flt3 =new flat("Builer Flat ", "Silver", "23,77", true, 7, "Furn", 500, 250);
  		flt3.Display();
  		
  		
